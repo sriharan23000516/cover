@@ -31,9 +31,64 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+HTML:
+```
+{% load static %}
 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Development Technologies</title>
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    </head>
+    <body>
+        <section class="book">
+            <br><br>
+        <span id="top">EXPERT INSIGHT &nbsp;&nbsp;&nbsp;</span>
+            <h1>Responsive Web Design with HTML5 and CSS</h1>
+            <h4>Develop future-proof responsive websites using the latest HTML5 and CSS techniques</h4>
+            <h3>Third Edition</h3>
+            <footer>
+                <div id="HASH" class="blue-msg">
+                    <span>Ben Frain</span>
+                    <span id="end"><u>Packt></u></span>
+                </div>
+            </footer>
+    </section>
+    </body>
+</html>
+```
+
+CSS:
+```
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Development Technologies</title>
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    </head>
+    <body>
+        <section class="book">
+            <br><br>
+        <span id="top">EXPERT INSIGHT &nbsp;&nbsp;&nbsp;</span>
+            <h1>Responsive Web Design with HTML5 and CSS</h1>
+            <h4>Develop future-proof responsive websites using the latest HTML5 and CSS techniques</h4>
+            <h3>Third Edition</h3>
+            <footer>
+                <div id="HASH" class="blue-msg">
+                    <span>Ben Frain</span>
+                    <span id="end"><u>Packt></u></span>
+                </div>
+            </footer>
+    </section>
+    </body>
+</html>
+```
 
 ## OUTPUT:
+![book-cover](https://github.com/Ravi-1105/cover/assets/139841688/060f7ce9-17eb-4aad-86d4-d51040f4151e)
 
 
 ## RESULT:
